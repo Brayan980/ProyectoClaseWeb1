@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+</head>
+
+<body>
+
+    <h1>Ejemplo HTML Formulario</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Datos Paciente</legend>
+
+            Cedula
+            <input type="number" pattern="[0.9]{6,12}" autofocus>
+
+            Nombre Paciente
+            <input type="text" pattern=" [A-Z]{1}[a-z ]*" size="30" placeholder="Escribe tu Nombre Completo">
+
+
+            Fecha Nacimiento
+            <input type="date" pattern="/d{4}/\d{2}/\d{2}">
+
+
+
+            Numero Celular
+
+            <input type="number" pattern="\+\d{2} \d{3} \d{3} \d{3}">
+            <input type="submit" value="Enviar Servidor">
+
+        </fieldset>
+
+        <textarea cols="30" rows="10"></textarea>
+
+
+
+    </form>
+
+</body>
+
+</html>
