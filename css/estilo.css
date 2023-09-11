@@ -1,0 +1,54 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    font-size: 14px;
+    margin-right: 25px;
+    
+}
+
+.div1{
+    height: 130px;
+    width: 130px;
+    margin-left: 20px;
+}
+
+img{
+
+
+    width: 100%;
+    height: 100%;
+}
+
+figure{
+
+    margin: 0%;
+}
+
+.flexcontainer{
+
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+
+}
+
+.divizquierdo{
+
+    width: 80%;
+    height: 200px;
+    background-color: red;
+}
+
+.divderecho{
+
+    width: 15%;
+    height: 200px;
+    background-color: purple;
+}
