@@ -1,0 +1,45 @@
+.flexcontenedor {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+}
+
+.divimagen {
+    width: 1200px;
+    height: 300px;
+    background-image: url(../recursos/imagenes/barco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+    margin: 0 auto; /
+}
+
+.div2 {
+    margin-top: 20px; 
+    width: 700px; 
+    text-align: center;
+    margin-top: 20px;
+    max-width: 700px; /* Establecer el ancho máximo igual al de la imagen */
+    padding: 10px;  
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagentamaño{
+    width: 100px;
+    height: 100px;
+}
+
+.flexcontenedor2 {
+    display: flex;
+    justify-content: center; 
+    background-color: red; 
+    padding: 0px; 
+}

@@ -1,0 +1,56 @@
+#flexcontenedor{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gridcontenedor{
+
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    gap: 20px;
+
+    grid-template-rows: 100px 400px;
+}
+
+div#flexcontenedor > div{
+
+    width: 30%;
+    border: 1px solid red;
+    margin-right: 20px;
+    
+}
+
+div#gridcontenedor > div{
+
+    border: 1px solid blue;
+
+
+}
+
+
+#gridArea{
+
+    display: grid;
+    grid-template-areas: 'encabezado encabezado encabezado aside'
+     'encabezado intermedio intermedio aside' 
+     'encabezado encabezado encabezado aside';
+}
+
+#divuno{
+
+    grid-area: encabezado;
+    background-color: red;
+}
+
+#divdos{
+
+    grid-area: intermedio;
+    background-color: aquamarine;
+}
+
+#divtres{
+
+    grid-area: aside;
+    background-color: brown;
+}

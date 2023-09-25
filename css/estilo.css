@@ -34,9 +34,15 @@ figure{
 .flexcontainer{
 
     display: flex;
-    background-color: blue;
-    justify-content: space-between;
 
+  
+
+}
+
+.flexcontenedor{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
 }
 
 .divizquierdo{
@@ -55,7 +61,7 @@ figure{
 
 p{
 
-    color: white;
+    color: black;
     font-size: 20px;
     margin-top: 80px;
     margin-left: -400px;
@@ -71,4 +77,14 @@ p{
 
 
 
+}
+
+.divfondoizquierdo{
+
+    width: 50%;
+}
+
+.imagentamaño{
+    width: 100px;
+    height: 100px;
 }
